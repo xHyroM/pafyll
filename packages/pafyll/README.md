@@ -14,7 +14,7 @@
 
 ## Implemented functions
 
--   Everything from [@pafyll/array](../array/README.md)
+-   Everything from [@pafyll/array](https://github.com/xHyroM/pafyll/blob/main/packages/array/README.md)
 
 ## How to import
 
