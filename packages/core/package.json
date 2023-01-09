@@ -1,0 +1,15 @@
+{
+    "name": "@pafyll/core",
+    "description": "Core package for Pafyll - internal",
+    "version": "0.0.1",
+    "type": "module",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "private": true,
+    "scripts": {
+        "build": "tsup",
+        "test": "ava"
+    },
+    "author": "xHyroM",
+    "license": "MIT"
+}
