@@ -18,5 +18,8 @@
     "license": "MIT",
     "devDependencies": {
         "@pafyll/core": "workspace:*"
+    },
+    "peerDependencies": {
+        "@pafyll/core": "workspace:*"
     }
 }
