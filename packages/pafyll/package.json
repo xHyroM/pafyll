@@ -1,14 +1,13 @@
 {
-    "name": "@pafyll/array",
-    "description": "Array polyfill for every platform",
+    "name": "pafyll",
+    "description": "Full polyfill for ECMAScript standard functions",
     "version": "0.0.1",
     "type": "module",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
     "private": false,
     "scripts": {
-        "build": "tsc -p tsconfig.json",
-        "test": "ava"
+        "build": "tsup"
     },
     "author": "xHyroM",
     "repository": {
@@ -16,6 +15,9 @@
         "url": "https://github.com/xHyroM/pafyll.git"
     },
     "license": "MIT",
+    "dependencies": {
+        "@pafyll/array": "workspace:*"
+    },
     "devDependencies": {
         "@pafyll/core": "workspace:*"
     }

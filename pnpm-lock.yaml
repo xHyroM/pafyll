@@ -19,11 +19,20 @@ importers:
   packages/array:
     specifiers:
       '@pafyll/core': workspace:*
-    dependencies:
+    devDependencies:
       '@pafyll/core': link:../core
 
   packages/core:
     specifiers: {}
+
+  packages/pafyll:
+    specifiers:
+      '@pafyll/array': workspace:*
+      '@pafyll/core': workspace:*
+    dependencies:
+      '@pafyll/array': link:../array
+    devDependencies:
+      '@pafyll/core': link:../core
 
 packages:
 
